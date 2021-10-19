@@ -14,4 +14,16 @@ public class CarInsurance {
 	public void setMarried(boolean married) {
 		this.married=married;
 	}
+	
+	public int GetCustomerAge() {
+		return this.age;
+	}
+
+	public char GetCustomerGender() {
+		return this.gen;
+	}
+
+	public boolean GetCustomerMaritalStatus() {
+		return this.married;
+	}
 }
