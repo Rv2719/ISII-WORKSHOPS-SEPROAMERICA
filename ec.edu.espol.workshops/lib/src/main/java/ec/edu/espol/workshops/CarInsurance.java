@@ -26,4 +26,5 @@ public class CarInsurance {
 	public boolean GetCustomerMaritalStatus() {
 		return this.married;
 	}
+	
 }
