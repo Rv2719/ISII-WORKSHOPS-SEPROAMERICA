@@ -5,5 +5,13 @@ public class CarInsurance {
 	private char gen;
 	private boolean married; //true is married and false isn't
 	
-	
+	public void setAge(int age) {
+		this.age=age;
+	}
+	public void setGen(char gen) {
+		this.gen=gen;
+	}
+	public void setMarried(boolean married) {
+		this.married=married;
+	}
 }
