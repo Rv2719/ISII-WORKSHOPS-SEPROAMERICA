@@ -15,19 +15,19 @@ public class CarInsurance {
 		this.married=married;
 	}
 	
-	public int GetCustomerAge() {
+	public int getCustomerAge() {
 		return this.age;
 	}
 
-	public char GetCustomerGender() {
+	public char getCustomerGender() {
 		return this.gen;
 	}
 
-	public boolean GetCustomerMaritalStatus() {
+	public boolean getCustomerMaritalStatus() {
 		return this.married;
 	}
 	public int calculatePremium(boolean licencia) { //licencia true, we can sell the insurance else not
-		if(!licencia || this.age>80 || (this.GetCustomerGender()!='M' && this.GetCustomerGender()!='F') || this.GetCustomerAge()>0) {
+		if(!licencia || this.age>80 || (this.getCustomerGender()!='M' && this.getCustomerGender()!='F') || this.getCustomerAge()>0) {
 			return -1;
 		}
 		int result= 500;
