@@ -49,7 +49,7 @@ public class CarInsurance {
     if (this.age >= 45 && this.age < 65) {
       result -= 100;
     }
-    return result;
+    return result ;
   }
 	
 }
