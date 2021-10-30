@@ -23,41 +23,27 @@ public class CarInsurance {
 		this.married=married;
 	}
 	
-<<<<<<< HEAD
 	public int getCustomerAge() {
-=======
-	public int getAge() { //Method to obtain the customer's age
->>>>>>> refs/heads/PMD
 		return this.age;
 	}
 
-<<<<<<< HEAD
 	public char getCustomerGender() {
-		return this.gen;
-=======
-	public char getGender() { //Method to obtain the customer's gender
 		return this.gender;
->>>>>>> refs/heads/PMD
 	}
 
-<<<<<<< HEAD
 	public boolean getCustomerMaritalStatus() {
-=======
-	public boolean getMarried() { //Method to obtain the client's marital status
->>>>>>> refs/heads/PMD
 		return this.married;
 	}
-<<<<<<< HEAD
   public int calculatePremium(boolean licencia) { //licencia true, we can sell the insurance else not
     if (!licencia || this.age > 80 || (this.getCustomerGender() != 'M' 
         && this.getCustomerGender() != 'F') || this.getCustomerAge() > 0) {
       return -1;
     }
     int result = 500;
-    if (this.age < 25 && this.married == false && this.gen == 'M') {
+    if (this.age < 25 && this.married == false && this.gender == 'M') {
       result += 1500;
     }
-    if (this.married == true || this.gen == 'F') {
+    if (this.married == true || this.gender == 'F') {
       result -= 200;
     }
     if (this.age >= 45 && this.age < 65) {
@@ -65,29 +51,6 @@ public class CarInsurance {
     }
     return result;
   }
-=======
-	/*
-	* Method that calculates the premium of a car insurance
-    * @param licencia boolean variable
-    * @return result integer variable
-	*/
-	public int calculatePremium(boolean licencia) { 
-		if(!licencia || this.getAge()>80 || (this.getGender()!='M' && this.getGender()!='F') || this.getAge()>0) {
-			return -1;
-		}
-		int result= 500;
-		if(this.age<25 && this.married==false && this.gender=='M') {
-			result+=1500;
-		}
-		if(this.married==true || this.gender=='F') {
-			result-=200;
-		}
-		if(this.age>=45 && this.age<65) {
-			result-=100;
-		}
-		return result;
-	}
->>>>>>> refs/heads/PMD
 	
 }
 
