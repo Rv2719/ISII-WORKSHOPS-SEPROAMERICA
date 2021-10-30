@@ -36,7 +36,7 @@ public class CarInsurance {
 	}
   public int calculatePremium(boolean licencia) { //licencia true, we can sell the insurance else not
     if (!licencia || this.age > 80 || (this.getCustomerGender() != 'M' 
-        && this.getCustomerGender() != 'F') || this.getCustomerAge() > 0) {
+        && this.getCustomerGender() != 'F') || this.getCustomerAge() < 0) {
       return -1;
     }
     int result = 500;
