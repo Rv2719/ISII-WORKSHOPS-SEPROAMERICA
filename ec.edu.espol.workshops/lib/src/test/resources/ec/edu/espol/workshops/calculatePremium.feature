@@ -3,7 +3,7 @@ Feature: Calculate the insurance prime for a customer
 
   @tag1
   Scenario: The customer age is older than 80
-    Given The age is '85' 
+    Given The age is 85 
     And the gender is 'F'
     And is his status is 'married'
     And he 'have' license
@@ -26,7 +26,7 @@ Feature: Calculate the insurance prime for a customer
       
   @tag3
   Scenario: The customer will receive the maximum car insurance
-    Given The age is '21' 
+    Given The age is 21 
     And the gender is 'M'
     And is his status is 'not married'
     And he 'have' license
@@ -50,7 +50,7 @@ Feature: Calculate the insurance prime for a customer
       
  @tag5
   Scenario: The customer don’t have license
-    Given The age is '21' 
+    Given The age is 21 
     And the gender is 'M'
     And is his status is 'not married'
     And he 'not have' license
