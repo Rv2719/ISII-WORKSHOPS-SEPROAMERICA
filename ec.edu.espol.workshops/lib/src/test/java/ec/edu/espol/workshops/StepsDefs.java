@@ -15,11 +15,11 @@ public class StepsDefs {
  public void the_age_is(int entero) {
 	 carInsurance.setAge(entero);
  }
- @And("the gender is {String}")
+ @And("the gender is {string}")
  public void the_geneder_is(String m) {
 	 carInsurance.setGender(m.charAt(0));
  }
- @And("is his status is {String}")
+ @And("is his status is {string}")
  public void is_his_status_is(String casada){
 	 boolean cas;
 	 if(casada.equals("married")) {
@@ -29,7 +29,7 @@ public class StepsDefs {
 	 }
 	 carInsurance.setMarried(cas);
  }
- @And("he {String} license")
+ @And("he {string} license")
  public void he_license(String cadena) {
 	 boolean lic;
 	 if(cadena.equals("have")) {
