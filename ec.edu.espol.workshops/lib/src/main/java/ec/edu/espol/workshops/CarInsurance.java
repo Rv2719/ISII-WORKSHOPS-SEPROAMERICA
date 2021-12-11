@@ -1,8 +1,8 @@
 package ec.edu.espol.workshops;
 /*
 * Calculating a car insurance premium
-* @author  Raúl Villao
-* @author  Paúl Bustos
+* @author  Raul Villao
+* @author  Paul Bustos
 * @author  Mary Silvestre
 * @version 1.0
 * @since   2021-10-22
