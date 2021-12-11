@@ -6,6 +6,7 @@ package ec.edu.espol.workshops;
 * @author  Mary Silvestre
 * @version 1.0
 * @since   2021-10-22
+* 
 */
 public class CarInsurance {
 	//Class with private attributes
