@@ -39,7 +39,7 @@ public class CarInsurance {
         && this.getCustomerGender() != 'F') || this.getCustomerAge() < 0) {
       return -1;
     }
-    int result = 500;
+    int result = 600;
     if (this.age < 25 && this.married == false && this.gender == 'M') {
       result += 1500;
     }
