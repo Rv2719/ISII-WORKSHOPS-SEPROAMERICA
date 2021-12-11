@@ -1,8 +1,8 @@
 package ec.edu.espol.workshops;
 /*
 * Calculating a car insurance premium
-* @author  Raul Villao
-* @author  Paul Bustos
+* @author  Raúl Villao
+* @author  Paúl Bustos
 * @author  Mary Silvestre
 * @version 1.0
 * @since   2021-10-22
@@ -10,7 +10,7 @@ package ec.edu.espol.workshops;
 public class CarInsurance {
 	//Class with private attributes
 	private int age; // Private field age of type integer
-	private char gender;// Gender private field of type char with values â€‹â€‹'M' or 'F'
+	private char gender;// Gender private field of type char with values 'M' or 'F'
 	private boolean married; //Private field of type boolean, true is married and false isn't
 	
 	public void setAge(int age) {
