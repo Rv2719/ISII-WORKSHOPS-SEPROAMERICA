@@ -29,7 +29,7 @@ public class BranchCoverageTest {
 		seguro.setMarried(false);
 
 		int valorSeguro = seguro.calculatePremium(true);
-		assertEquals(500, valorSeguro);
+		assertEquals(300, valorSeguro);
 	}
 
 	// Test to check BC-TC03
