@@ -43,11 +43,17 @@ public class CarInsurance {
     if (this.age < 25 && this.married == false && this.gender == 'M') {
       result += 1500;
     }
+    if (this.married==true && this.age>30 && this.age <60) {
+    	result -= 50;
+    }
     if (this.married == true || this.gender == 'F') {
       result -= 200;
     }
     if (this.age >= 45 && this.age < 65) {
       result -= 100;
+    }
+    if(this.married==false && this.gender=='F' && this.age>60) {
+    	result -=50;
     }
     return result ;
   }
